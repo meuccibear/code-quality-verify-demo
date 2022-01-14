@@ -1,4 +1,4 @@
-node('slave001') {
+node() {
 
     properties([gitLabConnection('gitlab-bigdata')])
 
